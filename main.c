@@ -1,10 +1,3 @@
-/*************************************************************************
-	> File Name: test.c
-	> Author: bxq
-	> Mail: 544177215@qq.com 
-	> Created Time: Saturday, December 12, 2015 PM03:19:12 CST
- ************************************************************************/
-
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
@@ -99,8 +92,8 @@ int main(int argc, char *argv[]){
 				}
 				if (ret == 0) {
 					fseek(fp, 0, SEEK_SET);
-					if (fp)
-						fseek(fp, 0, SEEK_SET);
+					// if (fp)
+					// 	fseek(fp, 0, SEEK_SET);
 					goto read_video_again;
 				}
 
